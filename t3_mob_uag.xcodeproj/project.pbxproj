@@ -16,11 +16,11 @@
 		EE78436B19F1EFB200C73A4E /* table@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436A19F1EFB200C73A4E /* table@2x.png */; };
 		EE78436D19F1F08600C73A4E /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436C19F1F08600C73A4E /* calendar@2x.png */; };
 		EE78436F19F1F19B00C73A4E /* todo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436E19F1F19B00C73A4E /* todo@2x.png */; };
-		EE78437219F1F29500C73A4E /* TableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78437119F1F29500C73A4E /* TableViewCell1.m */; };
 		EE78437519F1F2F700C73A4E /* ViewControllerTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78437419F1F2F700C73A4E /* ViewControllerTable.m */; };
 		EE78437919F1F77800C73A4E /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78437819F1F77800C73A4E /* share.png */; };
 		EE78437B19F1F84300C73A4E /* share30.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78437A19F1F84300C73A4E /* share30.png */; };
 		EE78437D19F2074000C73A4E /* dwarves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE78437C19F2074000C73A4E /* dwarves.jpg */; };
+		EECC6D6519F25A8A009EC757 /* TableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = EECC6D6419F25A8A009EC757 /* TableViewCell1.m */; };
 		EEF9E8D619F22D7F00A09C7D /* Thorin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8C919F22D7F00A09C7D /* Thorin.jpeg */; };
 		EEF9E8D719F22D7F00A09C7D /* Gloin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8CA19F22D7F00A09C7D /* Gloin.jpeg */; };
 		EEF9E8D819F22D7F00A09C7D /* Bombur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8CB19F22D7F00A09C7D /* Bombur.jpeg */; };
@@ -65,13 +65,13 @@
 		EE78436A19F1EFB200C73A4E /* table@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table@2x.png"; sourceTree = "<group>"; };
 		EE78436C19F1F08600C73A4E /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
 		EE78436E19F1F19B00C73A4E /* todo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "todo@2x.png"; sourceTree = "<group>"; };
-		EE78437019F1F29500C73A4E /* TableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell1.h; path = ../TableViewCell1.h; sourceTree = "<group>"; };
-		EE78437119F1F29500C73A4E /* TableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell1.m; path = ../TableViewCell1.m; sourceTree = "<group>"; };
 		EE78437319F1F2F700C73A4E /* ViewControllerTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTable.h; sourceTree = "<group>"; };
 		EE78437419F1F2F700C73A4E /* ViewControllerTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTable.m; sourceTree = "<group>"; };
 		EE78437819F1F77800C73A4E /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 		EE78437A19F1F84300C73A4E /* share30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share30.png; sourceTree = "<group>"; };
 		EE78437C19F2074000C73A4E /* dwarves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwarves.jpg; sourceTree = "<group>"; };
+		EECC6D6319F25A7F009EC757 /* TableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell1.h; sourceTree = "<group>"; };
+		EECC6D6419F25A8A009EC757 /* TableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell1.m; sourceTree = "<group>"; };
 		EEF9E8C919F22D7F00A09C7D /* Thorin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorin.jpeg; sourceTree = "<group>"; };
 		EEF9E8CA19F22D7F00A09C7D /* Gloin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloin.jpeg; sourceTree = "<group>"; };
 		EEF9E8CB19F22D7F00A09C7D /* Bombur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bombur.jpeg; sourceTree = "<group>"; };
@@ -132,8 +132,8 @@
 		EE78433B19F1E54200C73A4E /* t3_mob_uag */ = {
 			isa = PBXGroup;
 			children = (
-				EE78437019F1F29500C73A4E /* TableViewCell1.h */,
-				EE78437119F1F29500C73A4E /* TableViewCell1.m */,
+				EECC6D6319F25A7F009EC757 /* TableViewCell1.h */,
+				EECC6D6419F25A8A009EC757 /* TableViewCell1.m */,
 				EE78437319F1F2F700C73A4E /* ViewControllerTable.h */,
 				EE78437419F1F2F700C73A4E /* ViewControllerTable.m */,
 				EEF9E8E319F233E300A09C7D /* PickerViewController.h */,
@@ -321,9 +321,9 @@
 				EE78434219F1E54200C73A4E /* AppDelegate.m in Sources */,
 				EE78433F19F1E54200C73A4E /* main.m in Sources */,
 				EEF9E8E519F233E300A09C7D /* PickerViewController.m in Sources */,
+				EECC6D6519F25A8A009EC757 /* TableViewCell1.m in Sources */,
 				EE78437519F1F2F700C73A4E /* ViewControllerTable.m in Sources */,
 				EEF9E8EC19F243EF00A09C7D /* DatePickerViewController.m in Sources */,
-				EE78437219F1F29500C73A4E /* TableViewCell1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
