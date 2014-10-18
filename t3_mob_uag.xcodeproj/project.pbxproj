@@ -14,6 +14,9 @@
 		EE78434A19F1E54200C73A4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE78434919F1E54200C73A4E /* Images.xcassets */; };
 		EE78434D19F1E54200C73A4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE78434B19F1E54200C73A4E /* LaunchScreen.xib */; };
 		EE78435919F1E54200C73A4E /* t3_mob_uagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78435819F1E54200C73A4E /* t3_mob_uagTests.m */; };
+		EE78436B19F1EFB200C73A4E /* table@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436A19F1EFB200C73A4E /* table@2x.png */; };
+		EE78436D19F1F08600C73A4E /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436C19F1F08600C73A4E /* calendar@2x.png */; };
+		EE78436F19F1F19B00C73A4E /* todo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436E19F1F19B00C73A4E /* todo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		EE78435219F1E54200C73A4E /* t3_mob_uagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = t3_mob_uagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE78435719F1E54200C73A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE78435819F1E54200C73A4E /* t3_mob_uagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = t3_mob_uagTests.m; sourceTree = "<group>"; };
+		EE78436A19F1EFB200C73A4E /* table@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table@2x.png"; sourceTree = "<group>"; };
+		EE78436C19F1F08600C73A4E /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		EE78436E19F1F19B00C73A4E /* todo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "todo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		EE78433C19F1E54200C73A4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE78436E19F1F19B00C73A4E /* todo@2x.png */,
+				EE78436C19F1F08600C73A4E /* calendar@2x.png */,
+				EE78436A19F1EFB200C73A4E /* table@2x.png */,
 				EE78433D19F1E54200C73A4E /* Info.plist */,
 				EE78433E19F1E54200C73A4E /* main.m */,
 			);
@@ -200,8 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE78434819F1E54200C73A4E /* Main.storyboard in Resources */,
+				EE78436B19F1EFB200C73A4E /* table@2x.png in Resources */,
 				EE78434D19F1E54200C73A4E /* LaunchScreen.xib in Resources */,
 				EE78434A19F1E54200C73A4E /* Images.xcassets in Resources */,
+				EE78436F19F1F19B00C73A4E /* todo@2x.png in Resources */,
+				EE78436D19F1F08600C73A4E /* calendar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
