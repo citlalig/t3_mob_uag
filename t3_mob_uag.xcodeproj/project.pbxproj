@@ -17,6 +17,11 @@
 		EE78436B19F1EFB200C73A4E /* table@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436A19F1EFB200C73A4E /* table@2x.png */; };
 		EE78436D19F1F08600C73A4E /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436C19F1F08600C73A4E /* calendar@2x.png */; };
 		EE78436F19F1F19B00C73A4E /* todo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78436E19F1F19B00C73A4E /* todo@2x.png */; };
+		EE78437219F1F29500C73A4E /* TableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78437119F1F29500C73A4E /* TableViewCell1.m */; };
+		EE78437519F1F2F700C73A4E /* ViewControllerTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78437419F1F2F700C73A4E /* ViewControllerTable.m */; };
+		EE78437919F1F77800C73A4E /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78437819F1F77800C73A4E /* share.png */; };
+		EE78437B19F1F84300C73A4E /* share30.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78437A19F1F84300C73A4E /* share30.png */; };
+		EE78437D19F2074000C73A4E /* dwarves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE78437C19F2074000C73A4E /* dwarves.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,13 @@
 		EE78436A19F1EFB200C73A4E /* table@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table@2x.png"; sourceTree = "<group>"; };
 		EE78436C19F1F08600C73A4E /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
 		EE78436E19F1F19B00C73A4E /* todo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "todo@2x.png"; sourceTree = "<group>"; };
+		EE78437019F1F29500C73A4E /* TableViewCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell1.h; path = ../TableViewCell1.h; sourceTree = "<group>"; };
+		EE78437119F1F29500C73A4E /* TableViewCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell1.m; path = ../TableViewCell1.m; sourceTree = "<group>"; };
+		EE78437319F1F2F700C73A4E /* ViewControllerTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTable.h; sourceTree = "<group>"; };
+		EE78437419F1F2F700C73A4E /* ViewControllerTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTable.m; sourceTree = "<group>"; };
+		EE78437819F1F77800C73A4E /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		EE78437A19F1F84300C73A4E /* share30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share30.png; sourceTree = "<group>"; };
+		EE78437C19F2074000C73A4E /* dwarves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwarves.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,8 @@
 		EE78433B19F1E54200C73A4E /* t3_mob_uag */ = {
 			isa = PBXGroup;
 			children = (
+				EE78437019F1F29500C73A4E /* TableViewCell1.h */,
+				EE78437119F1F29500C73A4E /* TableViewCell1.m */,
 				EE78434019F1E54200C73A4E /* AppDelegate.h */,
 				EE78434119F1E54200C73A4E /* AppDelegate.m */,
 				EE78434319F1E54200C73A4E /* ViewController.h */,
@@ -95,6 +109,8 @@
 				EE78434919F1E54200C73A4E /* Images.xcassets */,
 				EE78434B19F1E54200C73A4E /* LaunchScreen.xib */,
 				EE78433C19F1E54200C73A4E /* Supporting Files */,
+				EE78437319F1F2F700C73A4E /* ViewControllerTable.h */,
+				EE78437419F1F2F700C73A4E /* ViewControllerTable.m */,
 			);
 			path = t3_mob_uag;
 			sourceTree = "<group>";
@@ -102,6 +118,9 @@
 		EE78433C19F1E54200C73A4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE78437C19F2074000C73A4E /* dwarves.jpg */,
+				EE78437A19F1F84300C73A4E /* share30.png */,
+				EE78437819F1F77800C73A4E /* share.png */,
 				EE78436E19F1F19B00C73A4E /* todo@2x.png */,
 				EE78436C19F1F08600C73A4E /* calendar@2x.png */,
 				EE78436A19F1EFB200C73A4E /* table@2x.png */,
@@ -210,10 +229,13 @@
 			files = (
 				EE78434819F1E54200C73A4E /* Main.storyboard in Resources */,
 				EE78436B19F1EFB200C73A4E /* table@2x.png in Resources */,
+				EE78437D19F2074000C73A4E /* dwarves.jpg in Resources */,
 				EE78434D19F1E54200C73A4E /* LaunchScreen.xib in Resources */,
 				EE78434A19F1E54200C73A4E /* Images.xcassets in Resources */,
+				EE78437B19F1F84300C73A4E /* share30.png in Resources */,
 				EE78436F19F1F19B00C73A4E /* todo@2x.png in Resources */,
 				EE78436D19F1F08600C73A4E /* calendar@2x.png in Resources */,
+				EE78437919F1F77800C73A4E /* share.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +256,8 @@
 				EE78434519F1E54200C73A4E /* ViewController.m in Sources */,
 				EE78434219F1E54200C73A4E /* AppDelegate.m in Sources */,
 				EE78433F19F1E54200C73A4E /* main.m in Sources */,
+				EE78437519F1F2F700C73A4E /* ViewControllerTable.m in Sources */,
+				EE78437219F1F29500C73A4E /* TableViewCell1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

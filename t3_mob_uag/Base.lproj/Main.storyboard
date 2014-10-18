@@ -9,45 +9,124 @@
             <objects>
                 <viewController id="8CO-CJ-9JH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W9R-DZ-a7e">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ynx-hH-pxD">
+                                <rect key="frame" x="153" y="112" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Picker" image="table.png" id="qk3-We-Z3h"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9c-n9-eT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="703" y="622"/>
+            <point key="canvasLocation" x="702.5" y="729.5"/>
         </scene>
         <!--Date Picker-->
         <scene sceneID="cBQ-H4-b5h">
             <objects>
                 <viewController id="8W5-0d-Wmm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WoV-fr-YCI">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d3s-PM-D00">
+                                <rect key="frame" x="186" y="284" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Date Picker" image="calendar.png" id="v76-nH-3PO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dMH-jQ-htI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="697" y="1262"/>
+            <point key="canvasLocation" x="702" y="1473"/>
         </scene>
         <!--Table-->
         <scene sceneID="0Q0-pg-tiW">
             <objects>
-                <viewController id="fZS-aQ-1b9" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nPu-1B-hC5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <viewController id="fZS-aQ-1b9" customClass="ViewControllerTable" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="nPu-1B-hC5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BHl-1x-qOB">
+                                <rect key="frame" x="0.0" y="20" width="375" height="540"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell1" id="snD-oi-1UP" customClass="TableViewCell1">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="snD-oi-1UP" id="qFw-oX-n9C">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zUd-1J-6LF">
+                                                    <rect key="frame" x="31" y="11" width="231" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="16"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Sa-n7-IPd">
+                                                    <rect key="frame" x="332" y="11" width="20" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" backgroundImage="share.png">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="btnShareItemPressed:" destination="snD-oi-1UP" eventType="touchUpInside" id="19G-d1-gL8"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="btnShareItem" destination="7Sa-n7-IPd" id="Zui-ge-7OS"/>
+                                            <outlet property="lblCharacter" destination="zUd-1J-6LF" id="qgf-79-6N4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fZS-aQ-1b9" id="Px0-UA-gne"/>
+                                    <outlet property="delegate" destination="fZS-aQ-1b9" id="XpB-Xe-oxv"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RJM-jp-hvq">
+                                <rect key="frame" x="256" y="568" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="15"/>
+                                <state key="normal" title="Share All!">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSharePressed:" destination="fZS-aQ-1b9" eventType="touchUpInside" id="kQD-yC-Gu3"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Table" image="todo.png" id="maO-YY-zQf"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btnShareAll" destination="RJM-jp-hvq" id="X5Y-ig-gRr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hul-kU-dOf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="703" y="-12"/>
+            <point key="canvasLocation" x="702.5" y="-12.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="clU-MQ-fOc">
@@ -72,6 +151,7 @@
     </scenes>
     <resources>
         <image name="calendar.png" width="30" height="30"/>
+        <image name="share.png" width="62" height="62"/>
         <image name="table.png" width="30" height="30"/>
         <image name="todo.png" width="30" height="30"/>
     </resources>
