@@ -20,7 +20,4 @@
     // Configure the view for the selected state
 }
 
-- (IBAction)btnShareItemPressed:(id)sender {
-    NSLog(@"Item Shared! %@", self.lblCharacter.text);
-}
 @end

@@ -14,6 +14,4 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *btnShareItem;
 
-- (IBAction)btnShareItemPressed:(id)sender;
-
 @end

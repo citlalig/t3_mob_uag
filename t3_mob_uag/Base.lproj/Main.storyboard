@@ -86,9 +86,6 @@
                                                     <state key="normal" backgroundImage="share.png">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
-                                                    <connections>
-                                                        <action selector="btnShareItemPressed:" destination="snD-oi-1UP" eventType="touchUpInside" id="19G-d1-gL8"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -122,6 +119,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="btnShareAll" destination="RJM-jp-hvq" id="X5Y-ig-gRr"/>
+                        <outlet property="tblCharacters" destination="BHl-1x-qOB" id="rvF-eD-jD4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hul-kU-dOf" userLabel="First Responder" sceneMemberID="firstResponder"/>

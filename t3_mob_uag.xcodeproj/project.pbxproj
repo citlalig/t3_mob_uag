@@ -101,6 +101,8 @@
 			children = (
 				EE78437019F1F29500C73A4E /* TableViewCell1.h */,
 				EE78437119F1F29500C73A4E /* TableViewCell1.m */,
+				EE78437319F1F2F700C73A4E /* ViewControllerTable.h */,
+				EE78437419F1F2F700C73A4E /* ViewControllerTable.m */,
 				EE78434019F1E54200C73A4E /* AppDelegate.h */,
 				EE78434119F1E54200C73A4E /* AppDelegate.m */,
 				EE78434319F1E54200C73A4E /* ViewController.h */,
@@ -109,8 +111,6 @@
 				EE78434919F1E54200C73A4E /* Images.xcassets */,
 				EE78434B19F1E54200C73A4E /* LaunchScreen.xib */,
 				EE78433C19F1E54200C73A4E /* Supporting Files */,
-				EE78437319F1F2F700C73A4E /* ViewControllerTable.h */,
-				EE78437419F1F2F700C73A4E /* ViewControllerTable.m */,
 			);
 			path = t3_mob_uag;
 			sourceTree = "<group>";

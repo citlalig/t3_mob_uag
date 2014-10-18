@@ -14,4 +14,6 @@
 
 - (IBAction)btnSharePressed:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UITableView *tblCharacters;
+
 @end

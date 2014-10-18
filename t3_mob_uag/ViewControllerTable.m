@@ -21,7 +21,7 @@ NSMutableArray *maNames;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-     maNames = [NSMutableArray arrayWithObjects: @"Thorin Oakenshield", @"Fili", @"Kili", @"Balin", @"Dwalin",
+     maNames = [NSMutableArray arrayWithObjects: @"Thorin", @"Fili", @"Kili", @"Balin", @"Dwalin",
                @"Oin",  @"Gloin", @"Ori", @"Dori", @"Nori",  @"Bifur", @"Bofur", @"Bombur",  nil];
 }
 
@@ -57,26 +57,37 @@ NSMutableArray *maNames;
     }
     
     cell.lblCharacter.text = maNames[indexPath.row];
-    
+    cell.btnShareItem.tag = indexPath.row;
+    [cell.btnShareItem addTarget:self action:@selector(shareItem:)
+                forControlEvents:UIControlEventTouchUpInside];
     return cell;
-    
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 }
 
+- (void)shareItem:(id)sender {
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[sender tag] inSection:0];
+    TableViewCell1 *cell = [self.tblCharacters cellForRowAtIndexPath:indexPath];
+    [self shareWindow:cell.lblCharacter.text withImg:@"dwarves.jpg"];
+}
+
+
 - (IBAction)btnSharePressed:(id)sender {
+    [self shareWindow:[maNames componentsJoinedByString:@", "] withImg:@"dwarves.jpg"];
+}
+
+- (void)shareWindow:(NSString*)strShareMsg withImg:(NSString*)strImgName {
     NSLog(@"Shared!");
     
-    NSString                    *strShareMsg;
     NSArray                     *aShareItems;
     UIImage                     *imgShare;
     UIActivityViewController    *actViewController;
     
-    strShareMsg = [NSString stringWithFormat: @"Shared from iOS App: %@", [maNames componentsJoinedByString:@", "]];
+    strShareMsg = [NSString stringWithFormat: @"Shared from iOS App: %@", strShareMsg];
     
-    imgShare    = [UIImage imageNamed:@"dwarves.jpg"];
+    imgShare    = [UIImage imageNamed:strImgName];
     aShareItems = @[imgShare, strShareMsg];
     
     actViewController = [[UIActivityViewController alloc] initWithActivityItems:aShareItems applicationActivities:nil];
@@ -84,6 +95,7 @@ NSMutableArray *maNames;
     actViewController.excludedActivityTypes = [NSArray arrayWithObjects:UIActivityTypePrint, UIActivityTypeAssignToContact, UIActivityTypeCopyToPasteboard, UIActivityTypeAirDrop, nil];
     
     [self presentViewController:actViewController animated:YES completion:nil];
-
+    
 }
+
 @end
