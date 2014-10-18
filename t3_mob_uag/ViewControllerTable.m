@@ -57,6 +57,7 @@ NSMutableArray *maNames;
     }
     
     cell.lblCharacter.text = maNames[indexPath.row];
+    cell.imgCharacter.image = [UIImage imageNamed:[maNames[indexPath.row] stringByAppendingString:@".jpeg"]];
     cell.btnShareItem.tag = indexPath.row;
     [cell.btnShareItem addTarget:self action:@selector(shareItem:)
                 forControlEvents:UIControlEventTouchUpInside];
@@ -70,7 +71,9 @@ NSMutableArray *maNames;
 - (void)shareItem:(id)sender {
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[sender tag] inSection:0];
     TableViewCell1 *cell = [self.tblCharacters cellForRowAtIndexPath:indexPath];
-    [self shareWindow:cell.lblCharacter.text withImg:@"dwarves.jpg"];
+    NSString *imgName = cell.lblCharacter.text;
+    imgName = [imgName stringByAppendingString:@".jpeg"];
+    [self shareWindow:cell.lblCharacter.text withImg:imgName];
 }
 
 

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EE78433F19F1E54200C73A4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78433E19F1E54200C73A4E /* main.m */; };
 		EE78434219F1E54200C73A4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78434119F1E54200C73A4E /* AppDelegate.m */; };
-		EE78434519F1E54200C73A4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78434419F1E54200C73A4E /* ViewController.m */; };
 		EE78434819F1E54200C73A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE78434619F1E54200C73A4E /* Main.storyboard */; };
 		EE78434A19F1E54200C73A4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE78434919F1E54200C73A4E /* Images.xcassets */; };
 		EE78434D19F1E54200C73A4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE78434B19F1E54200C73A4E /* LaunchScreen.xib */; };
@@ -22,6 +21,22 @@
 		EE78437919F1F77800C73A4E /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78437819F1F77800C73A4E /* share.png */; };
 		EE78437B19F1F84300C73A4E /* share30.png in Resources */ = {isa = PBXBuildFile; fileRef = EE78437A19F1F84300C73A4E /* share30.png */; };
 		EE78437D19F2074000C73A4E /* dwarves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE78437C19F2074000C73A4E /* dwarves.jpg */; };
+		EEF9E8D619F22D7F00A09C7D /* Thorin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8C919F22D7F00A09C7D /* Thorin.jpeg */; };
+		EEF9E8D719F22D7F00A09C7D /* Gloin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8CA19F22D7F00A09C7D /* Gloin.jpeg */; };
+		EEF9E8D819F22D7F00A09C7D /* Bombur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8CB19F22D7F00A09C7D /* Bombur.jpeg */; };
+		EEF9E8D919F22D7F00A09C7D /* Bofur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8CC19F22D7F00A09C7D /* Bofur.jpeg */; };
+		EEF9E8DA19F22D7F00A09C7D /* Bifur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8CD19F22D7F00A09C7D /* Bifur.jpeg */; };
+		EEF9E8DB19F22D7F00A09C7D /* Nori.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8CE19F22D7F00A09C7D /* Nori.jpeg */; };
+		EEF9E8DC19F22D7F00A09C7D /* Dori.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8CF19F22D7F00A09C7D /* Dori.jpeg */; };
+		EEF9E8DD19F22D7F00A09C7D /* Ori.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8D019F22D7F00A09C7D /* Ori.jpeg */; };
+		EEF9E8DE19F22D7F00A09C7D /* Oin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8D119F22D7F00A09C7D /* Oin.jpeg */; };
+		EEF9E8DF19F22D7F00A09C7D /* Dwalin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8D219F22D7F00A09C7D /* Dwalin.jpeg */; };
+		EEF9E8E019F22D7F00A09C7D /* Balin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8D319F22D7F00A09C7D /* Balin.jpeg */; };
+		EEF9E8E119F22D7F00A09C7D /* Kili.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8D419F22D7F00A09C7D /* Kili.jpeg */; };
+		EEF9E8E219F22D7F00A09C7D /* Fili.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8D519F22D7F00A09C7D /* Fili.jpeg */; };
+		EEF9E8E519F233E300A09C7D /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9E8E419F233E300A09C7D /* PickerViewController.m */; };
+		EEF9E8E719F237E500A09C7D /* see.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8E619F237E500A09C7D /* see.png */; };
+		EEF9E8E919F241AD00A09C7D /* avion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8E819F241AD00A09C7D /* avion.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +55,6 @@
 		EE78433E19F1E54200C73A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE78434019F1E54200C73A4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE78434119F1E54200C73A4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE78434319F1E54200C73A4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE78434419F1E54200C73A4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE78434719F1E54200C73A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE78434919F1E54200C73A4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE78434C19F1E54200C73A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -58,6 +71,23 @@
 		EE78437819F1F77800C73A4E /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 		EE78437A19F1F84300C73A4E /* share30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share30.png; sourceTree = "<group>"; };
 		EE78437C19F2074000C73A4E /* dwarves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwarves.jpg; sourceTree = "<group>"; };
+		EEF9E8C919F22D7F00A09C7D /* Thorin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thorin.jpeg; sourceTree = "<group>"; };
+		EEF9E8CA19F22D7F00A09C7D /* Gloin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloin.jpeg; sourceTree = "<group>"; };
+		EEF9E8CB19F22D7F00A09C7D /* Bombur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bombur.jpeg; sourceTree = "<group>"; };
+		EEF9E8CC19F22D7F00A09C7D /* Bofur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bofur.jpeg; sourceTree = "<group>"; };
+		EEF9E8CD19F22D7F00A09C7D /* Bifur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bifur.jpeg; sourceTree = "<group>"; };
+		EEF9E8CE19F22D7F00A09C7D /* Nori.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nori.jpeg; sourceTree = "<group>"; };
+		EEF9E8CF19F22D7F00A09C7D /* Dori.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dori.jpeg; sourceTree = "<group>"; };
+		EEF9E8D019F22D7F00A09C7D /* Ori.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ori.jpeg; sourceTree = "<group>"; };
+		EEF9E8D119F22D7F00A09C7D /* Oin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oin.jpeg; sourceTree = "<group>"; };
+		EEF9E8D219F22D7F00A09C7D /* Dwalin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dwalin.jpeg; sourceTree = "<group>"; };
+		EEF9E8D319F22D7F00A09C7D /* Balin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balin.jpeg; sourceTree = "<group>"; };
+		EEF9E8D419F22D7F00A09C7D /* Kili.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kili.jpeg; sourceTree = "<group>"; };
+		EEF9E8D519F22D7F00A09C7D /* Fili.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fili.jpeg; sourceTree = "<group>"; };
+		EEF9E8E319F233E300A09C7D /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		EEF9E8E419F233E300A09C7D /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		EEF9E8E619F237E500A09C7D /* see.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = see.png; sourceTree = "<group>"; };
+		EEF9E8E819F241AD00A09C7D /* avion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avion.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +133,10 @@
 				EE78437119F1F29500C73A4E /* TableViewCell1.m */,
 				EE78437319F1F2F700C73A4E /* ViewControllerTable.h */,
 				EE78437419F1F2F700C73A4E /* ViewControllerTable.m */,
+				EEF9E8E319F233E300A09C7D /* PickerViewController.h */,
+				EEF9E8E419F233E300A09C7D /* PickerViewController.m */,
 				EE78434019F1E54200C73A4E /* AppDelegate.h */,
 				EE78434119F1E54200C73A4E /* AppDelegate.m */,
-				EE78434319F1E54200C73A4E /* ViewController.h */,
-				EE78434419F1E54200C73A4E /* ViewController.m */,
 				EE78434619F1E54200C73A4E /* Main.storyboard */,
 				EE78434919F1E54200C73A4E /* Images.xcassets */,
 				EE78434B19F1E54200C73A4E /* LaunchScreen.xib */,
@@ -118,6 +148,21 @@
 		EE78433C19F1E54200C73A4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEF9E8E819F241AD00A09C7D /* avion.jpg */,
+				EEF9E8E619F237E500A09C7D /* see.png */,
+				EEF9E8C919F22D7F00A09C7D /* Thorin.jpeg */,
+				EEF9E8CA19F22D7F00A09C7D /* Gloin.jpeg */,
+				EEF9E8CB19F22D7F00A09C7D /* Bombur.jpeg */,
+				EEF9E8CC19F22D7F00A09C7D /* Bofur.jpeg */,
+				EEF9E8CD19F22D7F00A09C7D /* Bifur.jpeg */,
+				EEF9E8CE19F22D7F00A09C7D /* Nori.jpeg */,
+				EEF9E8CF19F22D7F00A09C7D /* Dori.jpeg */,
+				EEF9E8D019F22D7F00A09C7D /* Ori.jpeg */,
+				EEF9E8D119F22D7F00A09C7D /* Oin.jpeg */,
+				EEF9E8D219F22D7F00A09C7D /* Dwalin.jpeg */,
+				EEF9E8D319F22D7F00A09C7D /* Balin.jpeg */,
+				EEF9E8D419F22D7F00A09C7D /* Kili.jpeg */,
+				EEF9E8D519F22D7F00A09C7D /* Fili.jpeg */,
 				EE78437C19F2074000C73A4E /* dwarves.jpg */,
 				EE78437A19F1F84300C73A4E /* share30.png */,
 				EE78437819F1F77800C73A4E /* share.png */,
@@ -227,15 +272,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF9E8DA19F22D7F00A09C7D /* Bifur.jpeg in Resources */,
+				EEF9E8DB19F22D7F00A09C7D /* Nori.jpeg in Resources */,
 				EE78434819F1E54200C73A4E /* Main.storyboard in Resources */,
+				EEF9E8DF19F22D7F00A09C7D /* Dwalin.jpeg in Resources */,
 				EE78436B19F1EFB200C73A4E /* table@2x.png in Resources */,
+				EEF9E8E719F237E500A09C7D /* see.png in Resources */,
 				EE78437D19F2074000C73A4E /* dwarves.jpg in Resources */,
 				EE78434D19F1E54200C73A4E /* LaunchScreen.xib in Resources */,
+				EEF9E8DE19F22D7F00A09C7D /* Oin.jpeg in Resources */,
+				EEF9E8D919F22D7F00A09C7D /* Bofur.jpeg in Resources */,
 				EE78434A19F1E54200C73A4E /* Images.xcassets in Resources */,
+				EEF9E8D619F22D7F00A09C7D /* Thorin.jpeg in Resources */,
+				EEF9E8E119F22D7F00A09C7D /* Kili.jpeg in Resources */,
+				EEF9E8E919F241AD00A09C7D /* avion.jpg in Resources */,
 				EE78437B19F1F84300C73A4E /* share30.png in Resources */,
+				EEF9E8E019F22D7F00A09C7D /* Balin.jpeg in Resources */,
 				EE78436F19F1F19B00C73A4E /* todo@2x.png in Resources */,
+				EEF9E8DC19F22D7F00A09C7D /* Dori.jpeg in Resources */,
 				EE78436D19F1F08600C73A4E /* calendar@2x.png in Resources */,
+				EEF9E8D719F22D7F00A09C7D /* Gloin.jpeg in Resources */,
+				EEF9E8DD19F22D7F00A09C7D /* Ori.jpeg in Resources */,
+				EEF9E8D819F22D7F00A09C7D /* Bombur.jpeg in Resources */,
 				EE78437919F1F77800C73A4E /* share.png in Resources */,
+				EEF9E8E219F22D7F00A09C7D /* Fili.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +313,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE78434519F1E54200C73A4E /* ViewController.m in Sources */,
 				EE78434219F1E54200C73A4E /* AppDelegate.m in Sources */,
 				EE78433F19F1E54200C73A4E /* main.m in Sources */,
+				EEF9E8E519F233E300A09C7D /* PickerViewController.m in Sources */,
 				EE78437519F1F2F700C73A4E /* ViewControllerTable.m in Sources */,
 				EE78437219F1F29500C73A4E /* TableViewCell1.m in Sources */,
 			);
@@ -448,6 +508,7 @@
 				EE78435E19F1E54200C73A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE78435F19F1E54200C73A4E /* Build configuration list for PBXNativeTarget "t3_mob_uagTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +517,7 @@
 				EE78436119F1E54200C73A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
