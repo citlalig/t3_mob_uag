@@ -37,6 +37,7 @@
 		EEF9E8E519F233E300A09C7D /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9E8E419F233E300A09C7D /* PickerViewController.m */; };
 		EEF9E8E719F237E500A09C7D /* see.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8E619F237E500A09C7D /* see.png */; };
 		EEF9E8E919F241AD00A09C7D /* avion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEF9E8E819F241AD00A09C7D /* avion.jpg */; };
+		EEF9E8EC19F243EF00A09C7D /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9E8EB19F243EF00A09C7D /* DatePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		EEF9E8E419F233E300A09C7D /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 		EEF9E8E619F237E500A09C7D /* see.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = see.png; sourceTree = "<group>"; };
 		EEF9E8E819F241AD00A09C7D /* avion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avion.jpg; sourceTree = "<group>"; };
+		EEF9E8EA19F243EF00A09C7D /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		EEF9E8EB19F243EF00A09C7D /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				EE78437419F1F2F700C73A4E /* ViewControllerTable.m */,
 				EEF9E8E319F233E300A09C7D /* PickerViewController.h */,
 				EEF9E8E419F233E300A09C7D /* PickerViewController.m */,
+				EEF9E8EA19F243EF00A09C7D /* DatePickerViewController.h */,
+				EEF9E8EB19F243EF00A09C7D /* DatePickerViewController.m */,
 				EE78434019F1E54200C73A4E /* AppDelegate.h */,
 				EE78434119F1E54200C73A4E /* AppDelegate.m */,
 				EE78434619F1E54200C73A4E /* Main.storyboard */,
@@ -317,6 +322,7 @@
 				EE78433F19F1E54200C73A4E /* main.m in Sources */,
 				EEF9E8E519F233E300A09C7D /* PickerViewController.m in Sources */,
 				EE78437519F1F2F700C73A4E /* ViewControllerTable.m in Sources */,
+				EEF9E8EC19F243EF00A09C7D /* DatePickerViewController.m in Sources */,
 				EE78437219F1F29500C73A4E /* TableViewCell1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = t3_mob_uag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -450,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = t3_mob_uag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

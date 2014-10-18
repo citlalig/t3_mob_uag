@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RoH-oD-Z6F">
     <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -114,7 +115,7 @@
         <!--Date Picker-->
         <scene sceneID="cBQ-H4-b5h">
             <objects>
-                <viewController id="8W5-0d-Wmm" sceneMemberID="viewController">
+                <viewController id="8W5-0d-Wmm" customClass="DatePickerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WoV-fr-YCI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,15 +127,73 @@
                                     <!--2014-10-18 05:22:50 +0000-->
                                 </date>
                             </datePicker>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" id="N5w-9s-1eN">
+                                <rect key="frame" x="0.0" y="210" width="375" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="435302570.74939698">
+                                    <!--2014-10-18 05:22:50 +0000-->
+                                </date>
+                            </datePicker>
+                            <view contentMode="scaleToFill" id="YNy-e8-d0W">
+                                <rect key="frame" x="40" y="387" width="310" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diff:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qmn-4W-Mge">
+                                        <rect key="frame" x="18" y="21" width="48" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="udb-60-aCp">
+                                        <rect key="frame" x="60" y="21" width="237" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1Sg-hP-MM3">
+                                <rect key="frame" x="228" y="496" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="share.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSharePressed:" destination="8W5-0d-Wmm" eventType="touchUpInside" id="Gpb-zs-Hhz"/>
+                                    <action selector="shareAction:" destination="8CO-CJ-9JH" eventType="touchUpInside" id="NsJ-Uq-vds"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2nr-aU-rL8">
+                                <rect key="frame" x="135" y="496" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="see.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSeeAction:" destination="8W5-0d-Wmm" eventType="touchUpInside" id="D73-vV-dp7"/>
+                                    <action selector="seeAction:" destination="8CO-CJ-9JH" eventType="touchUpInside" id="YGz-wf-tvY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Date Picker" image="calendar.png" id="v76-nH-3PO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Diff" destination="qmn-4W-Mge" id="5WP-eF-XPY"/>
+                        <outlet property="DiffValue" destination="udb-60-aCp" id="YzT-bu-YUr"/>
+                        <outlet property="btnSee" destination="2nr-aU-rL8" id="YY9-GV-c4T"/>
+                        <outlet property="btnShare" destination="2nr-aU-rL8" id="lBq-5d-VVV"/>
+                        <outlet property="pickr1" destination="DCR-yg-C8P" id="V7n-sy-3as"/>
+                        <outlet property="pickr2" destination="N5w-9s-1eN" id="whd-Zj-qdj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dMH-jQ-htI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="702" y="1473"/>
+            <point key="canvasLocation" x="701.5" y="1472.5"/>
         </scene>
         <!--Table-->
         <scene sceneID="0Q0-pg-tiW">
